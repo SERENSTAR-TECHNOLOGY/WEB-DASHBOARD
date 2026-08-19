@@ -1,0 +1,158 @@
+{
+	"id": "0507950b-9326-4a71-822d-8d6e76c130b6",
+	"deletedDateTime": null,
+	"appId": "ded0ab6d-2007-43f1-b14b-156163ecb342",
+	"applicationTemplateId": null,
+	"disabledByMicrosoftStatus": null,
+	"createdByAppId": "18ed3507-a475-4ccb-b669-d66bc9f2a36e",
+	"createdDateTime": "2025-04-30T10:46:40Z",
+	"displayName": "ᒪOᗩᗪ ᗰY ᑭI᙭Eᒪ©",
+	"description": null,
+	"groupMembershipClaims": null,
+	"identifierUris": [
+		"api://ded0ab6d-2007-43f1-b14b-156163ecb342"
+	],
+	"isDeviceOnlyAuthSupported": null,
+	"isDisabled": null,
+	"isFallbackPublicClient": true,
+	"nativeAuthenticationApisEnabled": null,
+	"notes": null,
+	"publisherDomain": "angelawestell.com",
+	"serviceManagementReference": "api://ded0ab6d-2007-43f1-b14b-156163ecb342",
+	"signInAudience": "AzureADMultipleOrgs",
+	"tags": [
+		"apiConsumer",
+		"desktopApp"
+	],
+	"tokenEncryptionKeyId": null,
+	"samlMetadataUrl": null,
+	"defaultRedirectUri": null,
+	"certification": null,
+	"optionalClaims": null,
+	"requestSignatureVerification": null,
+	"addIns": [],
+	"api": {
+		"acceptMappedClaims": null,
+		"knownClientApplications": [],
+		"requestedAccessTokenVersion": null,
+		"oauth2PermissionScopes": [],
+		"preAuthorizedApplications": []
+	},
+	"appRoles": [
+		{
+			"allowedMemberTypes": [
+				"Application"
+			],
+			"description": "Owners can have Admin Access",
+			"displayName": "Owners",
+			"id": "13b53dde-2b00-4dfd-9f59-5207dd7ec91e",
+			"isEnabled": true,
+			"origin": "Application",
+			"value": "Read/Write"
+		}
+	],
+	"info": {
+		"logoUrl": "https://aadcdn.msftauthimages.net/c1c6b6c8-skaanqgnlfexbsuxsagyycue-lzpvbeq6vphf3olcq/appbranding/m2zru4bss0xec6blync-rzm-mws1gdk-hd6pgddsuxm/1033/bannerlogo?ts=639178614017855765",
+		"marketingUrl": null,
+		"privacyStatementUrl": "https://sharepolicy-cds7eqqx.manus.space/?code=XFNGh8Bj4M48cQnoipC3By",
+		"supportUrl": null,
+		"termsOfServiceUrl": "https://www.facebook.com/"
+	},
+	"keyCredentials": [
+		{
+			"customKeyIdentifier": "5BC5F92EB1E23E5242D2EADC1615FF252C235380",
+			"displayName": "CERTIFICATE",
+			"endDateTime": "2026-08-25T23:59:59Z",
+			"key": null,
+			"keyId": "5fdaa0ce-65a3-4bc5-88c9-e9e056e30a08",
+			"startDateTime": "2026-04-03T09:54:00Z",
+			"type": "AsymmetricX509Cert",
+			"usage": "Verify"
+		}
+	],
+	"parentalControlSettings": {
+		"countriesBlockedForMinors": [],
+		"legalAgeGroupRule": "Allow"
+	},
+	"passwordCredentials": [],
+	"publicClient": {
+		"redirectUris": [
+			"api://ded0ab6d-2007-43f1-b14b-156163ecb342",
+			"ms-appx-web://microsoft.aad.brokerplugin/ded0ab6d-2007-43f1-b14b-156163ecb342",
+			"https://login.microsoftonline.com/common/oauth2/nativeclient"
+		]
+	},
+	"requiredResourceAccess": [
+		{
+			"resourceAppId": "a232010e-820c-4083-83bb-3ace5fc29d0b",
+			"resourceAccess": [
+				{
+					"id": "8741c20d-e8c0-41ff-8adf-b7b9ba168197",
+					"type": "Scope"
+				}
+			]
+		},
+		{
+			"resourceAppId": "00000003-0000-0000-c000-000000000000",
+			"resourceAccess": [
+				{
+					"id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+					"type": "Scope"
+				}
+			]
+		}
+	],
+	"verifiedPublisher": {
+		"displayName": null,
+		"verifiedPublisherId": null,
+		"addedDateTime": null
+	},
+	"web": {
+		"homePageUrl": "https://www.facebook.com/angelawestellonfacebook",
+		"logoutUrl": "https://www.facebook.com/angelawestellonfacebook?locale=en_GB",
+		"redirectUris": [
+			"https://www.angelawestell.com",
+			"https://www.facebook.com/angelawestell.personal",
+			"https://www.facebook.com/angelawestellonfacebook?locale=en_GB",
+			"https://www.facebook.com/?locale=en_GB",
+			"https://loadmypixel.com"
+		],
+		"implicitGrantSettings": {
+			"enableAccessTokenIssuance": true,
+			"enableIdTokenIssuance": false
+		},
+		"redirectUriSettings": [
+			{
+				"uri": "https://www.angelawestell.com",
+				"index": null
+			},
+			{
+				"uri": "https://www.facebook.com/angelawestell.personal",
+				"index": null
+			},
+			{
+				"uri": "https://www.facebook.com/angelawestellonfacebook?locale=en_GB",
+				"index": null
+			},
+			{
+				"uri": "https://www.facebook.com/?locale=en_GB",
+				"index": null
+			},
+			{
+				"uri": "https://loadmypixel.com",
+				"index": null
+			}
+		]
+	},
+	"servicePrincipalLockConfiguration": {
+		"isEnabled": true,
+		"allProperties": true,
+		"credentialsWithUsageVerify": true,
+		"credentialsWithUsageSign": true,
+		"identifierUris": false,
+		"tokenEncryptionKeyId": true
+	},
+	"spa": {
+		"redirectUris": []
+	}
+}
